@@ -81,7 +81,7 @@ message Header {
   bytes proposer_address = 14;  // original proposer of the block
   
   //redaction related fields
-  int64 witness = 15;
+  bytes witness = 15;
   int64 version_me = 16;
   int64 version_op = 17;
   int64 version_idx = 18;
